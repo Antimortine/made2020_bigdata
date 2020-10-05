@@ -1,0 +1,173 @@
+Deleted /user/hadoop/a.kopnin/hw02
+packageJobJar: [] [/usr/lib/hadoop/hadoop-streaming-2.10.0-amzn-0.jar] /tmp/streamjob7236327151555868028.jar tmpDir=null
+20/10/05 17:55:59 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-13-197.eu-west-1.compute.internal/172.31.13.197:8032
+20/10/05 17:56:00 INFO client.AHSProxy: Connecting to Application History server at ip-172-31-13-197.eu-west-1.compute.internal/172.31.13.197:10200
+20/10/05 17:56:00 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-13-197.eu-west-1.compute.internal/172.31.13.197:8032
+20/10/05 17:56:00 INFO client.AHSProxy: Connecting to Application History server at ip-172-31-13-197.eu-west-1.compute.internal/172.31.13.197:10200
+20/10/05 17:56:04 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+20/10/05 17:56:04 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev d1e860a34cc1aea3d600c57c5c0270ea41579e8c]
+20/10/05 17:56:04 INFO mapred.FileInputFormat: Total input files to process : 1
+20/10/05 17:56:04 INFO mapreduce.JobSubmitter: number of splits:4
+20/10/05 17:56:06 INFO Configuration.deprecation: yarn.resourcemanager.system-metrics-publisher.enabled is deprecated. Instead, use yarn.system-metrics-publisher.enabled
+20/10/05 17:56:07 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1601877082074_0091
+20/10/05 17:56:10 INFO conf.Configuration: resource-types.xml not found
+20/10/05 17:56:10 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+20/10/05 17:56:10 INFO resource.ResourceUtils: Adding resource type - name = memory-mb, units = Mi, type = COUNTABLE
+20/10/05 17:56:10 INFO resource.ResourceUtils: Adding resource type - name = vcores, units = , type = COUNTABLE
+20/10/05 17:56:10 INFO impl.YarnClientImpl: Submitted application application_1601877082074_0091
+20/10/05 17:56:11 INFO mapreduce.Job: The url to track the job: http://ip-172-31-13-197.eu-west-1.compute.internal:20888/proxy/application_1601877082074_0091/
+20/10/05 17:56:11 INFO mapreduce.Job: Running job: job_1601877082074_0091
+20/10/05 17:56:28 INFO mapreduce.Job: Job job_1601877082074_0091 running in uber mode : false
+20/10/05 17:56:28 INFO mapreduce.Job:  map 0% reduce 0%
+20/10/05 17:56:40 INFO mapreduce.Job:  map 25% reduce 0%
+20/10/05 17:56:49 INFO mapreduce.Job:  map 75% reduce 0%
+20/10/05 17:56:52 INFO mapreduce.Job:  map 100% reduce 0%
+20/10/05 17:57:10 INFO mapreduce.Job:  map 100% reduce 100%
+20/10/05 17:57:11 INFO mapreduce.Job: Job job_1601877082074_0091 completed successfully
+20/10/05 17:57:12 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=126
+		FILE: Number of bytes written=1097784
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=7275179
+		HDFS: Number of bytes written=19
+		HDFS: Number of read operations=15
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=1
+		Data-local map tasks=2
+		Rack-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=1393944
+		Total time spent by all reduces in occupied slots (ms)=633184
+		Total time spent by all map tasks (ms)=58081
+		Total time spent by all reduce tasks (ms)=19787
+		Total vcore-milliseconds taken by all map tasks=58081
+		Total vcore-milliseconds taken by all reduce tasks=19787
+		Total megabyte-milliseconds taken by all map tasks=44606208
+		Total megabyte-milliseconds taken by all reduce tasks=20261888
+	Map-Reduce Framework
+		Map input records=49081
+		Map output records=4
+		Map output bytes=106
+		Map output materialized bytes=178
+		Input split bytes=724
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=178
+		Reduce input records=4
+		Reduce output records=1
+		Spilled Records=8
+		Shuffled Maps =4
+		Failed Shuffles=0
+		Merged Map outputs=4
+		GC time elapsed (ms)=1238
+		CPU time spent (ms)=6860
+		Physical memory (bytes) snapshot=1773297664
+		Virtual memory (bytes) snapshot=12660961280
+		Total committed heap usage (bytes)=1143291904
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7274455
+	File Output Format Counters 
+		Bytes Written=19
+20/10/05 17:57:12 INFO streaming.StreamJob: Output directory: /user/hadoop/a.kopnin/hw02/output/mean
+packageJobJar: [] [/usr/lib/hadoop/hadoop-streaming-2.10.0-amzn-0.jar] /tmp/streamjob2771599334807408247.jar tmpDir=null
+20/10/05 17:57:24 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-13-197.eu-west-1.compute.internal/172.31.13.197:8032
+20/10/05 17:57:25 INFO client.AHSProxy: Connecting to Application History server at ip-172-31-13-197.eu-west-1.compute.internal/172.31.13.197:10200
+20/10/05 17:57:25 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-13-197.eu-west-1.compute.internal/172.31.13.197:8032
+20/10/05 17:57:25 INFO client.AHSProxy: Connecting to Application History server at ip-172-31-13-197.eu-west-1.compute.internal/172.31.13.197:10200
+20/10/05 17:57:27 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+20/10/05 17:57:27 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev d1e860a34cc1aea3d600c57c5c0270ea41579e8c]
+20/10/05 17:57:27 INFO mapred.FileInputFormat: Total input files to process : 1
+20/10/05 17:57:27 INFO mapreduce.JobSubmitter: number of splits:4
+20/10/05 17:57:27 INFO Configuration.deprecation: yarn.resourcemanager.system-metrics-publisher.enabled is deprecated. Instead, use yarn.system-metrics-publisher.enabled
+20/10/05 17:57:28 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1601877082074_0093
+20/10/05 17:57:28 INFO conf.Configuration: resource-types.xml not found
+20/10/05 17:57:28 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+20/10/05 17:57:28 INFO resource.ResourceUtils: Adding resource type - name = memory-mb, units = Mi, type = COUNTABLE
+20/10/05 17:57:28 INFO resource.ResourceUtils: Adding resource type - name = vcores, units = , type = COUNTABLE
+20/10/05 17:57:29 INFO impl.YarnClientImpl: Submitted application application_1601877082074_0093
+20/10/05 17:57:29 INFO mapreduce.Job: The url to track the job: http://ip-172-31-13-197.eu-west-1.compute.internal:20888/proxy/application_1601877082074_0093/
+20/10/05 17:57:29 INFO mapreduce.Job: Running job: job_1601877082074_0093
+20/10/05 17:58:34 INFO mapreduce.Job: Job job_1601877082074_0093 running in uber mode : false
+20/10/05 17:58:34 INFO mapreduce.Job:  map 0% reduce 0%
+20/10/05 17:58:47 INFO mapreduce.Job:  map 25% reduce 0%
+20/10/05 17:58:54 INFO mapreduce.Job:  map 50% reduce 0%
+20/10/05 17:58:55 INFO mapreduce.Job:  map 75% reduce 0%
+20/10/05 17:58:58 INFO mapreduce.Job:  map 100% reduce 0%
+20/10/05 17:59:05 INFO mapreduce.Job:  map 100% reduce 100%
+20/10/05 17:59:06 INFO mapreduce.Job: Job job_1601877082074_0093 completed successfully
+20/10/05 17:59:07 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=206
+		FILE: Number of bytes written=1097972
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=7275179
+		HDFS: Number of bytes written=19
+		HDFS: Number of read operations=15
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=1
+		Data-local map tasks=2
+		Rack-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=1376760
+		Total time spent by all reduces in occupied slots (ms)=286432
+		Total time spent by all map tasks (ms)=57365
+		Total time spent by all reduce tasks (ms)=8951
+		Total vcore-milliseconds taken by all map tasks=57365
+		Total vcore-milliseconds taken by all reduce tasks=8951
+		Total megabyte-milliseconds taken by all map tasks=44056320
+		Total megabyte-milliseconds taken by all reduce tasks=9165824
+	Map-Reduce Framework
+		Map input records=49081
+		Map output records=4
+		Map output bytes=179
+		Map output materialized bytes=251
+		Input split bytes=724
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=251
+		Reduce input records=4
+		Reduce output records=1
+		Spilled Records=8
+		Shuffled Maps =4
+		Failed Shuffles=0
+		Merged Map outputs=4
+		GC time elapsed (ms)=1120
+		CPU time spent (ms)=6640
+		Physical memory (bytes) snapshot=1770651648
+		Virtual memory (bytes) snapshot=12658585600
+		Total committed heap usage (bytes)=1143291904
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7274455
+	File Output Format Counters 
+		Bytes Written=19
+20/10/05 17:59:07 INFO streaming.StreamJob: Output directory: /user/hadoop/a.kopnin/hw02/output/var
+Results:
+Numpy mean		=	152.7206871868289	MapReduce mean		=	152.7206871868289	
+Numpy variance	=	57672.84569843345	MapReduce variance	=	57672.84569843359	
